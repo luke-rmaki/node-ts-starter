@@ -1,9 +1,14 @@
 {
-  "name": "s3backup",
+  "name": "ts-node-starter",
   "version": "1.0.0",
   "main": "main.ts",
   "author": "Luke Ruokaismaki",
   "license": "MIT",
+  "scripts": {
+    "dev": "./build.js -watch --run",
+    "build": "./build.js",
+    "start": "node ./build/main.js"
+  },
   "devDependencies": {
     "@types/node": "^14.14.10",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
